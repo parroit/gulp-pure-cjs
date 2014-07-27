@@ -22,18 +22,21 @@
   ],
   "main": "lib/gulp-pure-cjs",
   "engines": {
-      "node": ">=0.10.26",
-      "npm": ">=1.4.3"
+    "node": ">=0.10.26",
+    "npm": ">=1.4.3"
   },
   "scripts": {
     "test": "gulp test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "pure-cjs": "^1.11.0",
+    "through2": "^0.5.1",
+    "gulp-util": "^3.0.0"
+  },
   "devDependencies": {
     "chai": "~1.9.1",
     "gulp": "~3.8.6",
     "gulp-mocha": "~0.5"
-
   },
   "keywords": []
 }
