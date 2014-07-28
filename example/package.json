@@ -1,0 +1,38 @@
+{
+  "name": "example",
+  "description": "",
+  "version": "0.1.0",
+  "homepage": "https://github.com/parroit/gulp-pure-cjs",
+  "author": {
+    "name": "Andrea Parodi",
+    "email": "andrea.parodi@ebansoftware.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/parroit/gulp-pure-cjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parroit/gulp-pure-cjs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "lib/example",
+  "engines": {
+    "node": ">=0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "gulp-pure-cjs": "^0.1.0",
+    "basic-assert": "^0.5.0"
+  },
+  "keywords": []
+}

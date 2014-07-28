@@ -1,4 +1,5 @@
 *.log
+example
 node_modules
 *sublime*
 *config*
