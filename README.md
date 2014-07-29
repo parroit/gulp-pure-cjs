@@ -24,6 +24,10 @@ gulp.task('build', function() {
 
 ```
 
+## Beware!
+
+_`pure-cjs` always re-read files from disk, so if you load other plugin in pipeline that
+changes file content, this changes will be lost!_
 
 ## Options
 
