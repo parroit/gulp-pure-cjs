@@ -9,16 +9,22 @@
 'use strict';
 
 var gulp = require('gulp');
+var sourcemaps = require('gulp-sourcemaps');
+
 var pure = require('..');
 
 //purify example tests
 gulp.task('build', function() {
     return gulp.src('./test/example_test.js')
+        .pipe(sourcemaps.init())
+        
         .pipe(
             pure({
                 exports: 'example_test'
-            })
+            }).on('error',console.log)
         )
+        
+        .pipe(sourcemaps.write())
         .pipe(
             gulp.dest('dist')
         );

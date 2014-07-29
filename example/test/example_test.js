@@ -8,10 +8,14 @@
 
 'use strict';
 
-var assert = require('basic-assert');
-
 var example = require('../lib/example.js');
 
-assert.is(typeof example,'function');
-assert.is(example(), 'Pure Cjs is awesome');
+function is (l, r){
+    if (l !== r) {
+        throw new Error('gosh');
+    }
+}
+
+is(typeof example,'function');
+is(example(), 'Pure Cjs is awesome');
 console.log('All tests done');
