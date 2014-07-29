@@ -29,7 +29,7 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "pure-cjs": "^1.11.0",
+    "pure-cjs": "^1.11.1",
     "through2": "^0.5.1",
     "gulp-util": "^3.0.0",
     "vinyl-sourcemaps-apply": "^0.1.1"

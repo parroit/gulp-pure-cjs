@@ -24,7 +24,7 @@ gulp.task('build', function() {
             }).on('error',console.log)
         )
         
-        .pipe(sourcemaps.write())
+        .pipe(sourcemaps.write('.'))
         .pipe(
             gulp.dest('dist')
         );
