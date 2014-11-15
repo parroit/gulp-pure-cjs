@@ -26,7 +26,6 @@
     "npm": ">=1.4.3"
   },
   "scripts": {
-    "test": "gulp test"
   },
   "dependencies": {
     "gulp-util": "^3.0.1",
@@ -34,10 +33,6 @@
     "through2": "^0.5.1",
     "vinyl-sourcemaps-apply": "^0.1.4"
   },
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "gulp-mocha": "^1.1.1"
-  },
-  "keywords": []
+  
+  "keywords": ["gulp","builder","packager","pure-cjs","common js","modules","bundles"]
 }
