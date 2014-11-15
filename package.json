@@ -1,7 +1,7 @@
 {
   "name": "gulp-pure-cjs",
   "description": "Gulp plugin for Pure CommonJS builder",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/parroit/gulp-pure-cjs",
   "author": {
     "name": "Andrea Parodi",
