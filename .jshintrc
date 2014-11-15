@@ -1,7 +1,6 @@
 {
     "node": true,
     "esnext": false,
-    "es5": true,
     "immed": true,
     "newcap": true,
     "quotmark": "single",
