@@ -12,7 +12,7 @@ var example = require('../lib/example.js');
 
 function is (l, r){
     if (l !== r) {
-        throw new Error('gosh');
+        throw new Error('gosh, something goes wrong, please file an issue!');
     }
 }
 

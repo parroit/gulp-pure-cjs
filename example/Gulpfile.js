@@ -20,6 +20,7 @@ gulp.task('build', function() {
         
         .pipe(
             pure({
+                output: 'example_test.js',
                 exports: 'example_test'
             }).on('error',console.log)
         )
@@ -33,5 +34,5 @@ gulp.task('build', function() {
 
 //run purified tests
 gulp.task('default',['build'], function() {
-    require('./dist/example_test.min');
+    require('./dist/example_test');
 });
