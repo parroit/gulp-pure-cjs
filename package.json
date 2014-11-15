@@ -20,7 +20,7 @@
       "url": "http://opensource.org/licenses/MIT"
     }
   ],
-  "main": "lib/gulp-pure-cjs",
+  "main": "gulp-pure-cjs",
   "engines": {
     "node": ">=0.10.26",
     "npm": ">=1.4.3"
@@ -31,7 +31,7 @@
     "gulp-util": "^3.0.1",
     "pure-cjs": "^1.17.0",
     "through2": "^0.5.1",
-    "vinyl-sourcemaps-apply": "^0.1.4"
+    "vinyl-sourcemaps-apply": "0.1.1"
   },
   
   "keywords": ["gulp","builder","packager","pure-cjs","common js","modules","bundles"]

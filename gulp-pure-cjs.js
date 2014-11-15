@@ -47,11 +47,12 @@ module.exports = function(options) {
                     path: result.options.output,
                     contents: new Buffer(result.code)
                 });
-                result.map.file = result.map.file || outputFile.path;
-                result.map.mappings = result.map._mappings || [];
-                result.map.sources = result.map._sources._array || [];
-
-                applySourceMap(outputFile, result.map);
+                /*console.dir(result.map)
+                result.map.file = result.options.output ;
+                result.map.mappings = result.map._mappings;
+                result.map.sources = result.map._sources._array;
+*/
+                applySourceMap(outputFile, JSON.stringify(result.map));
 
                 self.push(outputFile);
 
