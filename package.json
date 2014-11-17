@@ -25,14 +25,20 @@
     "node": ">=0.10.26",
     "npm": ">=1.4.3"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "pure-cjs": "^1.17.0",
+    "pure-cjs": "^1.18.1",
     "through2": "^0.5.1",
     "vinyl-sourcemaps-apply": "0.1.1"
   },
-  
-  "keywords": ["gulp","builder","packager","pure-cjs","common js","modules","bundles"]
+  "keywords": [
+    "gulp",
+    "builder",
+    "packager",
+    "pure-cjs",
+    "common js",
+    "modules",
+    "bundles"
+  ]
 }
