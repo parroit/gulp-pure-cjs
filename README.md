@@ -2,7 +2,7 @@
 
 [Gulp](http://gulpjs.com/) plugin for [pure-cjs](https://github.com/RReverser/pure-cjs)
 
-[![Build Status](https://secure.travis-ci.org/parroit/gulp-pure-cjs.png?branch=master)](http://travis-ci.org/parroit/gulp-pure-cjs) [![NPM version](https://badge-me.herokuapp.com/api/npm/gulp-pure-cjs.png)](http://badges.enytc.com/for/npm/gulp-pure-cjs) 
+[![NPM version](https://badge-me.herokuapp.com/api/npm/gulp-pure-cjs.png)](http://badges.enytc.com/for/npm/gulp-pure-cjs) 
 
 ## Getting Started
 
