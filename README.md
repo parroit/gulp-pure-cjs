@@ -29,6 +29,28 @@ gulp.task('build', function() {
 _`pure-cjs` always re-read files from disk, so if you load other plugin in pipeline that
 changes file content, this changes will be lost!_
 
+## Sourcemaps
+
+In order to produce sourcemaps, you have to use [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps) plugin. This allow source modification info to be preserved through your pipeline, from 
+where you call `sourcemaps.init` to where you call `sourcemaps.write`. 
+See `gulp-sourcemaps` project for more info about out it works.
+
+```javascript
+var sourcemaps = require('gulp-sourcemaps');
+
+...
+
+return gulp.src('./test/example_test.js')
+        .pipe(sourcemaps.init())
+...
+        .pipe(pure())
+...
+        .pipe(sourcemaps.write('.'))
+...
+
+```
+
+
 ## Options
 
 The options object you use to call the plugin is passed to pure-cjs transform method
